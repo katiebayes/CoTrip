@@ -1,9 +1,9 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 
-import "./Layout.css";
-import Navbar from "../../components/Navbar/Navbar"
-import Footer from "../../components/Footer/Footer"
+import "./Layout.scss";
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
 
 export default function Layout(props) {

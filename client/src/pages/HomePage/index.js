@@ -23,8 +23,6 @@ import airplane from "assets/images/airplane-shape.png";
 import groups from "assets/images/protest.png";
 import hashtags from "assets/images/trending-hashtags.png";
 
-import NavBar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 import Card from "../../components/Card/Card";
 import GroupCard from "../../components/GroupCard/GroupCard";
 import TrendingHashtagCard from "../../components/TrendingHashtagCard/TrendingHashtagCard";

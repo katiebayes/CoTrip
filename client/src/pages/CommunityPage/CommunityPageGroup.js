@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./CommunityPageGroup.css";
-import NavBar from "../../components/Navbar/Navbar";
 import people from "assets/images/profile_default.svg";
 import Banner from "../../components/Banner/Banner";
 import InputTextField from "../../components/InputTextField/InputTextField";
@@ -8,7 +7,6 @@ import Banner__Community from "assets/images/community_banner.png";
 import ModalContainerJoin from "../../components/Modal/_ModalContainer-join";
 import MediaCard from "../../components/MediaCard/MediaCard";
 import UpcomingEventsCard from "../../components/UpcomingEventsCard/UpcomingEventsCard";
-import Footer from "../../components/Footer/Footer";
 
 import books from "../../assets/images/media-card-1.png";
 import happiness from "../../assets/images/media-card-2.png";

@@ -1,4 +1,4 @@
-import BookATripPage from "./BookATripPage";
+import BookATrip from "./BookATrip";
 import { CommunityPage, CommunityPageGroup, CommunityPagePeople } from "./CommunityPage";
 import { DirectoryGroups, DirectoryPeople } from "./DirectoryPage";
 import { ForumPage, ForumPageDiscover, ForumPageHashtag, ForumPageTopic } from "./ForumPage";
@@ -10,7 +10,7 @@ import SplashPage from "./SplashPage";
 import TripDetail from "./TripDetail";
 
 export {
-  BookATripPage,
+  BookATrip,
   CommunityPage,
   CommunityPageGroup,
   CommunityPagePeople,

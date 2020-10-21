@@ -1,13 +1,11 @@
 import React from "react";
 import "./DirectoryGroups.css";
-import NavBar from "../../components/Navbar/Navbar";
 import people from "assets/images/profile_default.svg";
 import Banner from "../../components/Banner/Banner";
 import Banner__Directory from "assets/images/Banner__pink.png";
 import InputTextField from "../../components/InputTextField/InputTextField";
 import Banner__Community from "assets/images/community_banner.png";
 import Button from "../../components/Button/Button";
-import Footer from "../../components/Footer/Footer";
 import Pill from "../../components/Pill/Pill";
 import GroupCard from "../../components/GroupCard/GroupCard";
 import picture1 from "../../assets/images/card_small1.png";

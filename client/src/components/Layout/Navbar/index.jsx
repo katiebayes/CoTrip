@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./Navbar.css";
-import Logo from "../Logo/Logo";
-import Burger from "../Burger/Burger";
-import ProfilePicture from "../ProfilePicture/ProfilePicture";
-import NavLink from "../NavLink/NavLink";
-import Icon from "../Icon/Icon";
+import Logo from "components/Logo/Logo";
+import Burger from "components/Burger/Burger";
+import ProfilePicture from "components/ProfilePicture/ProfilePicture";
+import NavLink from "components/NavLink/NavLink";
+import Icon from "components/Icon/Icon";
 import PropTypes from "prop-types";
 
 // Class Based React Component
@@ -57,7 +57,7 @@ class Navbar extends Component {
           <div className="Navbar__right">
             <Icon icon={"search"} size="2x" onClick={this.clickHandler} />
             <Icon icon={["far", "comment-dots"]} size="2x" onClick={this.clickHandler} />
-            <ProfilePicture type="extra-small" to={this.props.to} image={this.props.profileImage ? this.props.profileImage : require('../../assets/images/profile_default.svg')} />
+            <ProfilePicture type="extra-small" to={this.props.to} image={this.props.profileImage ? this.props.profileImage : require('assets/images/profile_default.svg')} />
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   page: 0,
-  image: require('../../assets/images/profile_default.svg'),
+  image: require('assets/images/profile_default.svg'),
   to: "/"
 };
 

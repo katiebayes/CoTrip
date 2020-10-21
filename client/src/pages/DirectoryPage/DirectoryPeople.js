@@ -1,12 +1,10 @@
 import React from "react";
 import "./DirectoryPeople.css";
-import NavBar from "../../components/Navbar/Navbar";
 import people from "assets/images/profile_default.svg";
 import Banner from "../../components/Banner/Banner";
 import InputTextField from "../../components/InputTextField/InputTextField";
 import Banner__Directory from "assets/images/Banner__pink.png";
 import Button from "../../components/Button/Button";
-import Footer from "../../components/Footer/Footer";
 import Pill from "../../components/Pill/Pill";
 import PersonCard from "../../components/PersonCard/PersonCard";
 import image1 from "../../assets/images/profile-picture-1.png";

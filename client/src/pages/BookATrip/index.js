@@ -1,5 +1,5 @@
 import React from "react";
-import "./BookATripPage.css";
+import "./BookATrip.css";
 import BookATripImage from "../../components/BookATripImage/BookATripImage";
 import Banner from "../../components/Banner/Banner";
 import InputTextField from "../../components/InputTextField/InputTextField";
@@ -9,14 +9,24 @@ import image2 from "assets/images/greece.png";
 import image3 from "assets/images/southernCaribbean.png";
 import image4 from "assets/images/easternCaribbean.png";
 import Button from "../../components/Button/Button";
-import Footer from "../../components/Footer/Footer";
 
-const BookATripPage = props => {
+const BookATrip = () => {
+  const pageActive = false;
+  if (pageActive) {
+    return (
+      <BookATripContents />
+    );
+  } else {
+    return (
+      <div>coming soon</div>
+    )
+  }
+};
 
-  let handleClick = (e) => console.log('Button Clicked')
-
+function BookATripContents(props) {
+  const handleClick = (e) => console.log('Button Clicked')
   return (
-    <div className="BookATripPage">
+    <div className="BookATrip">
       <div className="NewBanner">
         <Banner background={Banner__pink}>
           <div className="community-page-header">
@@ -30,9 +40,9 @@ const BookATripPage = props => {
           />
         </Banner>
       </div>
-      <header className="BookATripPage__header">Upcoming Trips</header>
+      <header className="BookATrip__header">Upcoming Trips</header>
       <BookATripImage
-        className="BookATripPage__images"
+        className="BookATrip__images"
         cards={[
           { image: image1, url: "/TripDetail", description: "Hawaii May 2020" },
           { image: image2, url: "/TripDetail", description: "Greece & Croatia Cruise June 2020" },
@@ -45,11 +55,11 @@ const BookATripPage = props => {
           }
         ]}
       />
-      <div className="BookATripPage__button-container">
+      <div className="BookATrip__button-container">
         <Button text="View Previous Trips" color="pink" size="large" handleClick={handleClick} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BookATripPage;
+export default BookATrip;

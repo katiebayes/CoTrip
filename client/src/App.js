@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Redirect } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import {
-  BookATripPage,
+  BookATrip,
   CommunityPage,
   CommunityPagePeople,
   CommunityPageGroup,
@@ -136,7 +136,7 @@ class App extends Component {
               path="/book-a-trip"
               exact
               render={routerProps => (
-                <BookATripPage handle_logout={this.handleLogout} {...routerProps} />
+                <BookATrip handle_logout={this.handleLogout} {...routerProps} />
               )}
             ></Route>
             {this.state.profileLoaded === true ? (

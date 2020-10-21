@@ -1,4 +1,4 @@
-.BookATripPage__header {
+.BookATrip__header {
   font-family: var(--default-font);
   font-size: 36px;
   color: var(--purple);
@@ -6,19 +6,19 @@
   margin: 0 auto;
 }
 
-.BookATripPage__button-container {
+.BookATrip__button-container {
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
 @media only screen and (max-width: 320px) {
-  .BookATripPage__header {
+  .BookATrip__header {
     text-align: center;
     font-size: 36px;
   }
 
-  .BookATripPage {
+  .BookATrip {
     width: 100vw;
   }
 }
