@@ -34,7 +34,7 @@ import MediaCard from "../../components/MediaCard/MediaCard";
 import SignUp from "components/SignUpAd/SignUpAd";
 import Banner from "components/Banner/Banner";
 import PersonCard from "components/PersonCard/PersonCard";
-import SplashPage from "pages/SplashPage/SplashPage";
+import SplashPage from "pages/SplashPage";
 
 const personCard1 = (
   <PersonCard

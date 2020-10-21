@@ -1,23 +1,25 @@
 import React, { Component } from "react";
 import { Route, Redirect } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import SplashPage from "./pages/SplashPage/SplashPage";
-import BookATripPage from "./pages/BookATripPage/BookATripPage";
-import CommunityPage from "./pages/CommunityPage/CommunityPage";
-import CommunityPageGroup from "./pages/CommunityPage/CommunityPageGroup";
-import ForumPageHashtag from "./pages/ForumPage/ForumPageHashtag";
-import ForumPageTopic from "./pages/ForumPage/ForumPageTopic";
-import ForumPageDiscover from "./pages/ForumPage/ForumPageDiscover";
+import {
+  BookATripPage,
+  CommunityPage,
+  CommunityPagePeople,
+  CommunityPageGroup,
+  DirectoryPeople,
+  DirectoryGroups as DirectoryGroup,
+  ForumPage,
+  ForumPageDiscover,
+  ForumPageHashtag,
+  ForumPageTopic,
+  HomePage,
+  LoginPage,
+  MemberProfilePage,
+  OnboardingPage,
+  SplashPage,
+  TripDetail
+} from "./pages";
 
-import CommunityPagePeople from "./pages/CommunityPage/CommunityPagePeople";
-import ForumPage from "./pages/ForumPage/ForumPage";
-import DirectoryPeople from "./pages/DirectoryPage/DirectoryPeople";
-import DirectoryGroup from "./pages/DirectoryPage/DirectoryGroups";
-import HomePage from "../src/pages/HomePage/HomePage";
-import MemberProfilePage from "./pages/MemberProfilePage/MemberProfilePage";
-import TripDetail from "./pages/TripDetail/TripDetail";
-import OnboardingPage from "./pages/OnboardingPage/OnboardingPage";
-import LoginPage from "./pages/LoginPage/LoginPage";
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
